@@ -1,4 +1,4 @@
-package com.example.divyansh.springboot.CRUD.entity;
+package com.example.divyansh.springboot.crud.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

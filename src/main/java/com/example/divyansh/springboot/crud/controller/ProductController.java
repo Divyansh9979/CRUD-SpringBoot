@@ -1,18 +1,19 @@
-package com.example.divyansh.springboot.CRUD.controller;
+package com.example.divyansh.springboot.crud.controller;
 
-import com.example.divyansh.springboot.CRUD.entity.Product;
-import com.example.divyansh.springboot.CRUD.service.ProductService;
+import com.example.divyansh.springboot.crud.entity.Product;
+import com.example.divyansh.springboot.crud.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping(path = "/divyansh")
 public class ProductController {
 
     @Autowired
-    ProductService productService;
+    private ProductService productService;
 
     @PostMapping("/addProduct")
     public String addProduct(@RequestBody Product product){

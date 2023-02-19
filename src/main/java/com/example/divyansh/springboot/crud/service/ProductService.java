@@ -1,7 +1,7 @@
-package com.example.divyansh.springboot.CRUD.service;
+package com.example.divyansh.springboot.crud.service;
 
-import com.example.divyansh.springboot.CRUD.entity.Product;
-import com.example.divyansh.springboot.CRUD.repository.ProductRepository;
+import com.example.divyansh.springboot.crud.entity.Product;
+import com.example.divyansh.springboot.crud.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

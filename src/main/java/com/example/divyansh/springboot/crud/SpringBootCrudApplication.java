@@ -1,4 +1,4 @@
-package com.example.divyansh.springboot.CRUD;
+package com.example.divyansh.springboot.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
